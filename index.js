@@ -34,5 +34,6 @@ bot.on('message', async message => {
     }
   }
 });
+
 require('./server')();
-bot.login(config.token);
+bot.login(config.mySecret);
